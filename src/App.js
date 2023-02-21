@@ -7,11 +7,16 @@ import Playerwon from './components/Playerwon';
 import Healthway from './components/Healthway';
 // import logo from './logo.svg';
 import './App.css';
+import useWindowSize from './components/useWindowSize';
 
 function App() {
+
+  const size = useWindowSize();
+
   return (
     <div className='App'>
-      <Navbar />
+      {size.width > 540 && <Navbar />}
+      {/* <Navbar /> */}
       <Intro />
       <StackIcons />
       <AboutMe />
