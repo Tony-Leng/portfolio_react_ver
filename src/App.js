@@ -16,7 +16,6 @@ function App() {
   return (
     <div className='App'>
       {size.width > 540 && <Navbar />}
-      {/* <Navbar /> */}
       <Intro />
       <StackIcons />
       <AboutMe />

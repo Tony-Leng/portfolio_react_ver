@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Intro() {
   return (
-    <h1>TEST</h1>
+    <h1>This is Healthway</h1>
   )
 }
