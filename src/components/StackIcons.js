@@ -16,7 +16,7 @@ export default function Intro() {
         <i class="devicon-postgresql-plain-wordmark"></i>
         <i class="devicon-git-plain"></i>
         <i class="devicon-github-original-wordmark"></i>
-        <!-- <i class="devicon-heroku-original-wordmark"></i> -->
+        {/* <i class="devicon-heroku-original-wordmark"></i> */}
       </div>
     </div>
   )
