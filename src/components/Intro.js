@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div className="initial-view d-flex">
     <div className="name-title">
-      <h1 className="name">Tony Leng</h1>
+      <h1 class="name">Tony Leng</h1>
       <h3 className="title">Front-End Web Developer</h3>
       <div className="socialicons">
         <a href="https://github.com/Tony-Leng" target="_blank"><i class="fa-brands fa-github"></i></a>
