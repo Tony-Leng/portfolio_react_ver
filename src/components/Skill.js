@@ -1,4 +1,4 @@
-import { Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -33,7 +33,7 @@ export default function Skills() {
               </h2>
             </div>
             <p>Default text describing this section.</p>
-            <Carousel reponsonsive={responsive} infinite={true} className="skill-slider">
+            <Carousel responsive={responsive} infinite={true} className="skill-slider">
               <div className="item">
                 {/* <img src={} alt="image"/> */}
                 <h5>Title of the whatever</h5>
