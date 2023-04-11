@@ -7,7 +7,7 @@ import profilePic from "../components/images/ProfilePic.png"
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] =useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = ["Web Developer", "UI/UX Designer"];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -18,18 +18,18 @@ useEffect(() => {
     tick();
   }, delta);
 
-  return () => {clearInterval(ticker)};
-}, {text})
+  return () => { clearInterval(ticker) };
+}, [text])
 
 const tick = () => {
   let i = loopNum % toRotate.length;
   let fullText = toRotate[i];
-  let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1)
+  let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
   setText(updatedText);
 
   if (isDeleting) {
-    setDelta(prevDelta => prevDelta /2)
+    setDelta(prevDelta => prevDelta / 2);
   }
 
   if (!isDeleting && updatedText === fullText) {
@@ -41,6 +41,8 @@ const tick = () => {
     setLoopNum(loopNum + 1);
     setIndex(1);
     setDelta(500);
+  } else {
+    setIndex(prevIndex => prevIndex + 1);
   }
 }
 
@@ -50,8 +52,8 @@ const tick = () => {
         <Row className="align-items-center">
           <Col className="intro-text" xs={12} md={6} xl={7}>
             <span className="tagline">Welcome To My Portfolio</span>
-            <h1>{`I'm a `}<span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
-            <p>My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end developing and UI design for the web.
+            <h1>{`I'm a `}<span className="txt-rotate" dataPeriod="1000" data-rotate='["Frontend Web Developer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
+            <p>My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end development and UI/UX design for the web.
             </p>
             <button onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <ArrowRightCircle size={25}/></button>
           </Col>
