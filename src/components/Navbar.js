@@ -49,7 +49,7 @@ export default function NavBar() {
               <a href='https://github.com/Tony-Leng'><img src={github} alt=''/></a>
               <a href='https://www.linkedin.com/in/tony-leng/'><img src={linkedin} alt=''/></a>
             </div>
-            <button className='contactme' onClick={() => console.log('contact me')}>
+            <button className='contactme' onClick={() => window.location = 'mailto:lengtk@gmail.com'}>
               <span>Contact Me</span>
             </button>
           </span>

@@ -104,7 +104,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
-  width: 40%;
+  width: 100%;
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
@@ -140,8 +140,9 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-  color: #121212;
-  filter: invert(0%);
+  /* color: #121212; */
+  /* filter: invert(1); */
+  transition: 0.3s ease-in-out;
 }
 
 .navbar-text button:hover::before {
