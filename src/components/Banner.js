@@ -50,7 +50,7 @@ const tick = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagLine">Welcome to my Portfolio</span>
-            <h1>{`I'm a `}<span className="wrap">{text}</span></h1>
+            <h1>{`I'm a `}<span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
             <p>My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end developing and UI design for the web.
             </p>
             <button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
