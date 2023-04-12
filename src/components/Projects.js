@@ -44,7 +44,7 @@ export default function Projects() {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Description about projects section.</p>
+            <p>Solo and group projects where I focused on frontend development.</p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
             {/* <Nav variant="pills" defaultActiveKey="/home">
               <Nav.Item>

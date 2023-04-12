@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { GrMailOption } from "react-icons/gr";
 import profilePic from "../components/images/ProfilePic.png"
 
 export default function Banner() {
@@ -55,7 +55,7 @@ const tick = () => {
             <h1>{`I'm a `}<span className="txt-rotate" dataPeriod="1000" data-rotate='["Frontend Web Developer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
             <p>My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end development and UI/UX design for the web.
             </p>
-            <button onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <ArrowRightCircle size={25}/></button>
+            <button onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <GrMailOption size={25}/></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={profilePic} alt="Profile Image"/>

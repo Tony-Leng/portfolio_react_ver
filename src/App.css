@@ -53,6 +53,7 @@ nav.navbar a.navbar-brand {
   font-size: 45px;
   font-weight: 700;
   font-family: sans-serif;
+  letter-spacing: 2px;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -138,15 +139,19 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  /* background-color: #fff; */
+  color: #121212;
   left: 0;
   top: 0;
+  transform: scale(0);
 }
 
 .navbar-text button:hover {
-  /* color: #121212; */
-  /* filter: invert(1); */
+  color: #121212;
+  background-color: #fff;
+  border-color: #fff;
   transition: 0.3s ease-in-out;
+  transform: scale(1);
 }
 
 .navbar-text button:hover::before {
@@ -244,12 +249,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   color: #fff;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #fff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  opacity: 0.75;
+  transition: 0.2s ease-in-out;
 }
+
+.banner p:hover{
+  opacity: 1;
+}
+
 .banner button {
   color: #fff;
   background-color: transparent;
@@ -282,27 +294,30 @@ color: #fff;
 
 /* ////////////////// Skills ////////////////// */
 .skills {
-  padding: 0 0 50px 0;
+  /* padding: 0 0 50px 0; */
   position: relative;
   color: #fff;
+  background-color: rgb(12, 12, 12);
+  /* background-image: url('./components/images/background.jpg'); */
 }
 
 .skill-box {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 30px 25px;
   margin-top: -60px;
 }
 
 .skills h2 {
   font-size: 45px;
   font-weight: 700;
+  color: #fff;
 }
 
 .skills p {
-  color: #B8B8B8;
-  font-size: 18px;
+  color: #fff;
+  font-size: 24px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
@@ -330,8 +345,8 @@ color: #fff;
 .projects {
   padding: 80px 0;
   position: relative;
-  background-color: black;
-  background-image: url('./components/images/background.jpg');
+  background-color: rgb(12, 12, 12);
+  /* background-image: url('./components/images/background.jpg'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

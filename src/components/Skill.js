@@ -40,11 +40,7 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-box">
-              <h2>
-                Skills
-              </h2>
-            </div>
-            <p>Here's my Tech Stack.</p>
+            {/* <h2>Here's my tech stack.</h2> */}
             <Carousel responsive={responsive} infinite={true} className="skill-slider">
               <TbBrandHtml5 size={100}/>
               <TbBrandCss3 size={100}/>
@@ -58,6 +54,7 @@ export default function Skills() {
               <BsGit size={100}/>
               <BsGithub size={100}/>
             </Carousel>
+            </div>
           </Col>
         </Row>
       </Container>
