@@ -427,7 +427,8 @@ color: #fff;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+  background: linear-gradient(0deg, #121212 -5.91%, #9c9c9c 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -450,6 +451,7 @@ color: #fff;
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+  color: #fff;
 }
 .proj-txtx h4 {
   font-size: 30px;
