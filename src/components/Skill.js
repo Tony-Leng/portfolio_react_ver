@@ -1,6 +1,18 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { TbBrandHtml5 } from "react-icons/tb";
+import { TbBrandCss3 } from "react-icons/tb";
+import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandReact } from "react-icons/tb";
+import { TbBrandBootstrap } from "react-icons/tb";
+import { TbBrandTailwind } from "react-icons/tb";
+import { DiRuby } from "react-icons/di";
+import { SiRubyonrails } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { BsGit } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+
 
 export default function Skills() {
   const responsive = {
@@ -32,24 +44,19 @@ export default function Skills() {
                 Skills
               </h2>
             </div>
-            <p>Default text describing this section.</p>
+            <p>Here's my Tech Stack.</p>
             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-              <div className="item">
-                {/* <img src={} alt="image"/> */}
-                <h5>Title of the whatever</h5>
-              </div>
-              <div className="item">
-                {/* <img src={} alt="image"/> */}
-                <h5>Title of the whatever</h5>
-              </div>
-              <div className="item">
-                {/* <img src={} alt="image"/> */}
-                <h5>Title of the whatever</h5>
-              </div>
-              <div className="item">
-                {/* <img src={} alt="image"/> */}
-                <h5>Title of the whatever</h5>
-              </div>
+              <TbBrandHtml5 size={100}/>
+              <TbBrandCss3 size={100}/>
+              <TbBrandJavascript size={100}/>
+              <TbBrandReact size={100}/>
+              <TbBrandBootstrap size={100}/>
+              <TbBrandTailwind size={100}/>
+              <DiRuby size={100}/>
+              <SiRubyonrails size={100}/>
+              <SiPostgresql size={100}/>
+              <BsGit size={100}/>
+              <BsGithub size={100}/>
             </Carousel>
           </Col>
         </Row>
