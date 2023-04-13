@@ -40,20 +40,21 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-box">
-            {/* <h2>Here's my tech stack.</h2> */}
-            <Carousel responsive={responsive} infinite={true} className="skill-slider">
-              <TbBrandHtml5 size={100}/>
-              <TbBrandCss3 size={100}/>
-              <TbBrandJavascript size={100}/>
-              <TbBrandReact size={100}/>
-              <TbBrandBootstrap size={100}/>
-              <TbBrandTailwind size={100}/>
-              <DiRuby size={100}/>
-              <SiRubyonrails size={100}/>
-              <SiPostgresql size={100}/>
-              <BsGit size={100}/>
-              <BsGithub size={100}/>
-            </Carousel>
+              <div className="skills-top flex">
+                <TbBrandHtml5 size={100}/>
+                <TbBrandCss3 size={100}/>
+                <TbBrandJavascript size={100}/>
+                <TbBrandReact size={100}/>
+                <TbBrandBootstrap size={100}/>
+                <TbBrandTailwind size={100}/>
+              </div>
+              <div className="skills-bot flex">
+                <DiRuby size={100}/>
+                <SiRubyonrails size={100}/>
+                <SiPostgresql size={100}/>
+                <BsGit size={100}/>
+                <BsGithub size={100}/>
+              </div>
             </div>
           </Col>
         </Row>
