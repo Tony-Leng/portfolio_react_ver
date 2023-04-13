@@ -40,20 +40,20 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-box">
-              <div className="skills-top flex">
-                <TbBrandHtml5 size={100}/>
-                <TbBrandCss3 size={100}/>
-                <TbBrandJavascript size={100}/>
-                <TbBrandReact size={100}/>
+              <div className="skills-top flex mb-5">
+                <TbBrandHtml5 size={100} className="me-5"/>
+                <TbBrandCss3 size={100} className="me-5"/>
+                <TbBrandJavascript size={100} className="me-5"/>
+                <TbBrandReact size={100} className="me-5"/>
                 <TbBrandBootstrap size={100}/>
-                <TbBrandTailwind size={100}/>
+                <TbBrandTailwind size={100} className="ms-5"/>
               </div>
               <div className="skills-bot flex">
-                <DiRuby size={100}/>
-                <SiRubyonrails size={100}/>
-                <SiPostgresql size={100}/>
+                <DiRuby size={100} className="me-5"/>
+                <SiRubyonrails size={100} className="me-5"/>
+                <SiPostgresql size={100} className="me-5"/>
                 <BsGit size={100}/>
-                <BsGithub size={100}/>
+                <BsGithub size={100} className="ms-5"/>
               </div>
             </div>
           </Col>
