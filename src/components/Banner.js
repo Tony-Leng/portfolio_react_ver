@@ -6,7 +6,7 @@ import profilePic from "../components/images/ProfilePic.png"
 
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] =useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = ["Web Developer", "UI/UX Designer"];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(1);

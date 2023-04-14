@@ -2,6 +2,9 @@ import { Container, Row, Tab, Nav, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import playerwon from "../components/images/playerwon.png";
 import healthway from "../components/images/healthway.png";
+import ecomm from "../components/images/ecommerce_product_page.PNG";
+import creditcard from "../components/images/interactive_credit_card.PNG";
+import ratingcard from "../components/images/interactive_rating_card.PNG";
 
 
 export default function Projects() {
@@ -19,7 +22,7 @@ export default function Projects() {
     {
       title: 'eCommerce Product Page',
       description: 'Description goes here',
-      // imgUrl: ecomm,
+      imgUrl: ecomm,
     },
     {
       title: 'Weather App',
@@ -29,12 +32,12 @@ export default function Projects() {
     {
       title: 'Interactive Credit Card Details',
       description: 'Description goes here',
-      // imgUrl: creditcard,
+      imgUrl: creditcard,
     },
     {
       title: 'Ratings Card',
       description: 'Description goes here',
-      // imgUrl: ratingcard,
+      imgUrl: ratingcard,
     }
   ];
 
