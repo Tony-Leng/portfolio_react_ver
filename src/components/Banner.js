@@ -7,7 +7,7 @@ import profilePic from "../components/images/ProfilePic.png"
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "UI/UX Enthusiast"];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -55,7 +55,7 @@ const tick = () => {
             <h1>{`I'm a `}<span className="txt-rotate" dataPeriod="1000" data-rotate='["Frontend Web Developer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
             <p>I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end development and UI/UX design for the web.
             </p>
-            <button onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <ArrowRightCircle size={25}/></button>
+            <button className="hidden-sm" onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <ArrowRightCircle size={25}/></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={profilePic} alt="Profile Image"/>
