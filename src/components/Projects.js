@@ -23,6 +23,7 @@ export default function Projects() {
       title: 'eCommerce Product Page',
       description: 'Description goes here',
       imgUrl: ecomm,
+      projectUrl: 'https://react-ecommerce-product-page.vercel.app/',
     },
     {
       title: 'Weather App',
@@ -33,11 +34,13 @@ export default function Projects() {
       title: 'Interactive Credit Card Details',
       description: 'Description goes here',
       imgUrl: creditcard,
+      projectUrl: 'https://js-interactive-card-details-form.vercel.app/',
     },
     {
       title: 'Ratings Card',
       description: 'Description goes here',
       imgUrl: ratingcard,
+      projectUrl: 'https://js-interactive-rating-component-main.vercel.app/',
     }
   ];
 
@@ -47,7 +50,7 @@ export default function Projects() {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Solo and group projects where I focused on frontend development.</p>
+            <p>Solo and group projects where I focused on frontend development. Click to check out each project.</p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
             {/* <Nav variant="pills" defaultActiveKey="/home">
               <Nav.Item>
