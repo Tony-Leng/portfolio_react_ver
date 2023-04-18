@@ -2,6 +2,7 @@ import { Container, Row, Tab, Nav, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import playerwon from "../components/images/playerwon.png";
 import healthway3 from "../components/images/healthway3.png";
+import weatherapp from "../components/images/weather_app.PNG";
 import ecomm from "../components/images/ecommerce_product_page.PNG";
 import creditcard from "../components/images/interactive_credit_card.PNG";
 import ratingcard from "../components/images/interactive_rating_card.PNG";
@@ -28,7 +29,8 @@ export default function Projects() {
     {
       title: 'Weather App',
       description: 'Made with HTML, CSS, and JS, this app pulls info from the OpenWeather API. My main focus here was practicing how to call APIs with JS.',
-      // imgUrl: weatherapp,
+      imgUrl: weatherapp,
+      projectUrl: 'https://js-weather-app-kappa.vercel.app/',
     },
     {
       title: 'Interactive Credit Card Details',
