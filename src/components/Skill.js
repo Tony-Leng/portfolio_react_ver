@@ -40,7 +40,7 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-box">
-              <div className="skills-top flex mb-5">
+              <div className="skills-top flex mb-5 col-sm-2">
                 <TbBrandHtml5 size={100} className="me-5"/>
                 <TbBrandCss3 size={100} className="me-5"/>
                 <TbBrandJavascript size={100} className="me-5"/>
@@ -48,7 +48,7 @@ export default function Skills() {
                 <TbBrandBootstrap size={100}/>
                 <TbBrandTailwind size={100} className="ms-5"/>
               </div>
-              <div className="skills-bot flex">
+              <div className="skills-bot flex col-sm-2">
                 <DiRuby size={100} className="me-5"/>
                 <SiRubyonrails size={100} className="me-5"/>
                 <SiPostgresql size={100} className="me-5"/>

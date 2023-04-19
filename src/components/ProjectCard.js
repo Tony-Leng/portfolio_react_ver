@@ -8,7 +8,8 @@ export default function ProjectCard({title, description, imgUrl, projectUrl}) {
         <div className='proj-txtx'>
           <h4>{title}</h4>
           <span>{description}</span>
-          {/* <button className='projectBtn' onClick={projectUrl}>View Project</button> */}
+          <br/>
+          <a href={projectUrl} target='_blank' rel="noopener noreferrer"><button className='projectBtn'>View Project</button></a>
         </div>
       </div>
     </Col>

@@ -14,11 +14,13 @@ export default function Projects() {
       title: 'PlayerWON',
       description: 'PlayerWON is a marketplace app made for gamers looking for game coaches. My main roles for this project were UI design and frontend development.',
       imgUrl: playerwon,
+      projectUrl: 'Coming Soon',
     },
     {
       title: 'HealthWay',
       description: 'HealthWay is an app made for tracking healtheck progress and paperwork. My main roles for this project were UI design and frontend development.',
       imgUrl: healthway3,
+      projectUrl: 'Coming Soon',
     },
     {
       title: 'eCommerce Product Page',
@@ -52,7 +54,7 @@ export default function Projects() {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Solo and group projects where I focused on frontend development. Click to check out each project.</p>
+            {/* <p>Solo and group projects where I focused on frontend development. Click to check out each project.</p> */}
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
             {/* <Nav variant="pills" defaultActiveKey="/home">
               <Nav.Item>
