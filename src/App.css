@@ -295,7 +295,6 @@ color: #fff;
 
 /* ////////////////// Skills ////////////////// */
 .skills {
-  /* padding: 0 0 50px 0; */
   position: relative;
   color: #fff;
   background-color: rgb(12, 12, 12);
@@ -332,6 +331,18 @@ color: #fff;
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+}
+
+.skills-top {
+  justify-content: space-between;
+}
+
+.skills-bot {
+  justify-content: space-between;
+}
+
+.skill-icon {
+  margin: 8px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -534,4 +545,22 @@ color: #fff;
     background-color: #121212;
     padding: 0;
   }
+
+  .skill-box {
+    display: flex;
+  }
+
+  .skill-top {
+    flex: none;
+    align-items: center;
+  }
+
+  .skill-bot {
+    flex: none;
+    align-content: center;
+  }
+
+  /* .skill-icon {
+    width: 15%;
+  } */
 }

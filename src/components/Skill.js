@@ -38,22 +38,22 @@ export default function Skills() {
     <section className="skills" id="skills">
       <Container>
         <Row>
-          <div className="skill-box">
-            <Col xs={6} md={12}>
+          <div className="">
+            <Col className="skill-box">
               <div className="skills-top flex mb-5">
-                <TbBrandHtml5 size={100} className="me-5"/>
-                <TbBrandCss3 size={100} className="me-5"/>
-                <TbBrandJavascript size={100} className="me-5"/>
-                <TbBrandReact size={100} className="me-5"/>
-                <TbBrandBootstrap size={100}/>
-                <TbBrandTailwind size={100} className="ms-5"/>
+                <TbBrandHtml5 size={100} className="skill-icon"/>
+                <TbBrandCss3 size={100} className="skill-icon"/>
+                <TbBrandJavascript size={100} className="skill-icon"/>
+                <TbBrandReact size={100} className="skill-icon"/>
+                <TbBrandBootstrap size={100} className="skill-icon"/>
+                <TbBrandTailwind size={100} className="skill-icon"/>
               </div>
               <div className="skills-bot flex">
-                <DiRuby size={100} className="me-5"/>
-                <SiRubyonrails size={100} className="me-5"/>
-                <SiPostgresql size={100} className="me-5"/>
-                <BsGit size={100}/>
-                <BsGithub size={100} className="ms-5"/>
+                <DiRuby size={100} className="skill-icon"/>
+                <SiRubyonrails size={100} className="skill-icon"/>
+                <SiPostgresql size={100} className="skill-icon"/>
+                <BsGit size={100} className="skill-icon"/>
+                <BsGithub size={100} className="skill-icon"/>
               </div>
             </Col>
           </div>
