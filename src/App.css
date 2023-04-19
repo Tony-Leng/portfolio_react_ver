@@ -51,8 +51,6 @@ nav.navbar a.navbar-brand {
   /* width: 9%; */
   color: #fff;
   font-size: 45px;
-  /* font-weight: 700; */
-  /* font-family: sans-serif; */
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 2px;
 }
@@ -120,7 +118,6 @@ span.navbar-text {
 }
 
 .navbar-text button {
-  /* font-weight: 700; */
   color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
@@ -141,7 +138,6 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  /* background-color: #fff; */
   color: #121212;
   left: 0;
   top: 0;
@@ -248,7 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   display: block;
   color: #fff;
 }
@@ -523,6 +519,19 @@ color: #fff;
   }
 
   .banner {
-    top: 100px;
+    padding-top: 160px;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  nav.navbar {
+    background-color: #121212;
+    padding: 0;
   }
 }
