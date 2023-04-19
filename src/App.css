@@ -546,6 +546,10 @@ color: #fff;
     padding: 0;
   }
 
+  .navbar-text {
+    justify-content: center;
+  }
+
   .skill-box {
     display: flex;
   }
@@ -560,7 +564,7 @@ color: #fff;
     align-content: center;
   }
 
-  /* .skill-icon {
-    width: 15%;
-  } */
+  .contactme {
+    display: none;
+  }
 }
