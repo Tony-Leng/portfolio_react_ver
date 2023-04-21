@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio_react_ver/static/css/main.4b6b7bfd.css",
+    "main.js": "/portfolio_react_ver/static/js/main.18505bf5.js",
+    "static/js/787.b26b3cb1.chunk.js": "/portfolio_react_ver/static/js/787.b26b3cb1.chunk.js",
+    "static/media/ProfilePic.png": "/portfolio_react_ver/static/media/ProfilePic.a31072d661a18e581e48.png",
+    "static/media/background.jpg": "/portfolio_react_ver/static/media/background.bc67f3bc576dc2377f25.jpg",
+    "static/media/ecommerce_product_page.PNG": "/portfolio_react_ver/static/media/ecommerce_product_page.6fdaed59d6a07f13bab8.PNG",
+    "static/media/playerwon.png": "/portfolio_react_ver/static/media/playerwon.f285e72fef3f881d6245.png",
+    "static/media/interactive_credit_card.PNG": "/portfolio_react_ver/static/media/interactive_credit_card.4f168111e002f8b6ddfe.PNG",
+    "static/media/healthway3.png": "/portfolio_react_ver/static/media/healthway3.a6a1176ce355c79472c6.png",
+    "static/media/weather_app.PNG": "/portfolio_react_ver/static/media/weather_app.8ba055e0b64e1126c664.PNG",
+    "static/media/interactive_rating_card.PNG": "/portfolio_react_ver/static/media/interactive_rating_card.6ea633955c164ae65051.PNG",
+    "static/media/revicons.eot": "/portfolio_react_ver/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio_react_ver/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio_react_ver/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/portfolio_react_ver/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio_react_ver/index.html",
+    "main.4b6b7bfd.css.map": "/portfolio_react_ver/static/css/main.4b6b7bfd.css.map",
+    "main.18505bf5.js.map": "/portfolio_react_ver/static/js/main.18505bf5.js.map",
+    "787.b26b3cb1.chunk.js.map": "/portfolio_react_ver/static/js/787.b26b3cb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b6b7bfd.css",
+    "static/js/main.18505bf5.js"
+  ]
+}
