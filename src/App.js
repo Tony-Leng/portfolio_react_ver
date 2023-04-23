@@ -3,7 +3,6 @@ import NavBar from './components/Navbar';
 import Banner from './components/Banner';
 import Skill from './components/Skill';
 import Projects from './components/Projects';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

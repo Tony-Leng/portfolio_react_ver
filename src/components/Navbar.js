@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import {Navbar, Container, Nav} from "react-bootstrap";
-import logo from './images/favicon-16x16.png';
 import github from './images/github-logo_icon.png';
 import linkedin from './images/linkedin_logo.png';
 
