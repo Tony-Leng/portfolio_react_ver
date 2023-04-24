@@ -39,7 +39,7 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999;
-  /* transition: 0.3s ease-in-out; */
+  transition: 0.3s ease-in-out;
 }
 
 nav.navbar.scrolled {
@@ -48,7 +48,6 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  /* width: 9%; */
   color: #fff;
   font-size: 45px;
   font-family: 'Bebas Neue', sans-serif;
