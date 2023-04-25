@@ -10,18 +10,18 @@ import ratingcard from "../components/images/interactive_rating_card.PNG";
 
 export default function Projects() {
   const projects = [
-    {
-      title: 'PlayerWON',
-      description: 'PlayerWON is a marketplace app made for gamers looking for game coaches. My main roles for this project were UI design and frontend development.',
-      imgUrl: playerwon,
-      projectUrl: 'Coming Soon',
-    },
-    {
-      title: 'HealthWay',
-      description: 'HealthWay is an app made for tracking healtheck progress and paperwork. My main roles for this project were UI design and frontend development.',
-      imgUrl: healthway3,
-      projectUrl: 'Coming Soon',
-    },
+    // {
+    //   title: 'PlayerWON',
+    //   description: 'PlayerWON is a marketplace app made for gamers looking for game coaches. My main roles for this project were UI design and frontend development.',
+    //   imgUrl: playerwon,
+    //   projectUrl: 'Coming Soon',
+    // },
+    // {
+    //   title: 'HealthWay',
+    //   description: 'HealthWay is an app made for tracking healtheck progress and paperwork. My main roles for this project were UI design and frontend development.',
+    //   imgUrl: healthway3,
+    //   projectUrl: 'Coming Soon',
+    // },
     {
       title: 'eCommerce Product Page',
       description: 'This is a frontend project found on Frontend Mentor whose aim is to replicate the design as closely as possible. I used React as the JS framework and this was my first experience with Tailwind.',
