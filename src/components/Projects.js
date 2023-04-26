@@ -35,14 +35,14 @@ export default function Projects() {
       projectUrl: 'https://js-weather-app-kappa.vercel.app/',
     },
     {
-      title: 'Interactive Credit Card Details',
+      title: 'Credit Card Details',
       description: 'Another project from Frontend Mentor, this project is made with HTML, CSS, and JS. My main focus was practicing DOM manipulation and form validation.',
       imgUrl: creditcard,
       projectUrl: 'https://js-interactive-card-details-form.vercel.app/',
     },
     {
       title: 'Ratings Card',
-      description: 'A simple project also from Frontend Mentor, it is made with HTML, CSS, and JS. My main focus was practicing handling user interactions and updating the DOM.',
+      description: 'A project also from Frontend Mentor, it is made with HTML, CSS, and JS. My main focus was practicing handling user interactions and updating the DOM.',
       imgUrl: ratingcard,
       projectUrl: 'https://js-interactive-rating-component-main.vercel.app/',
     }
