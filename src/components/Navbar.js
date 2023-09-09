@@ -33,7 +33,7 @@ export default function NavBar() {
       <Container>
         <Navbar.Brand href='#home'>
           {/* <img src={logo} alt='logo'/> */}
-          [TL]
+          Tony Leng
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className='navbar-toggler-icon'></span>

@@ -13,11 +13,11 @@
   transition: transform 0.8s ease-in-out;
 }
 
-.navbar-brand:hover {
+/* .navbar-brand:hover {
   color: #F8F0E3;
   transform: scale(1.5);
   transition: transform 1s ease-in-out;
-}
+} */
 
 #navbar-text {
   color: #F8F0E3;
