@@ -543,7 +543,7 @@ color: #fff;
   }
 
   .banner {
-    padding-top: 160px;
+    /* padding-top: 160px; */
     display: grid;
     align-items: center;
     justify-content: center;
