@@ -544,6 +544,9 @@ color: #fff;
 
   .banner {
     padding-top: 160px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
 
   .banner h1 {
