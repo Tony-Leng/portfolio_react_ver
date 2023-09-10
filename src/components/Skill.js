@@ -50,7 +50,7 @@ export default function Skills() {
                 <TbBrandTailwind size={100} className="skill-icon"/>
               </div>
               <div className="skills-bot flex">
-                <DiFirebase size={100} className="skill-icon"/>
+                {/* <DiFirebase size={100} className="skill-icon"/> */}
                 <DiRuby size={100} className="skill-icon"/>
                 <SiRubyonrails size={100} className="skill-icon"/>
                 <SiPostgresql size={100} className="skill-icon"/>

@@ -569,6 +569,7 @@ color: #fff;
 
   .skill-box {
     display: flex;
+    background-color: rgb(12, 12, 12);
   }
 
   .skill-top {
@@ -579,6 +580,10 @@ color: #fff;
   .skill-bot {
     flex: none;
     align-content: center;
+  }
+
+  .projects {
+    background: #151515;
   }
 
   .contactme {
