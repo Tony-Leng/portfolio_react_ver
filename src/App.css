@@ -299,6 +299,10 @@ color: #fff;
   background-color: rgb(12, 12, 12);
 }
 
+.hidden {
+  display: none;
+}
+
 .skill-box {
   background: #151515;
   border-radius: 64px;
@@ -309,8 +313,10 @@ color: #fff;
 
 .skills h2 {
   font-size: 45px;
-  font-weight: 700;
   color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.8px;
+  margin-bottom: 24px;
 }
 
 .skills p {
@@ -363,7 +369,6 @@ color: #fff;
 .projects h2 {
   letter-spacing: 0.8px;
 	font-size: 45px;
-	/* font-weight: 700; */
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   color: #fff;
@@ -564,6 +569,14 @@ color: #fff;
   }
 
   .navbar-text {
+    justify-content: center;
+  }
+
+  .mystack-d {
+    display: none;
+  }
+
+  .hidden {
     justify-content: center;
   }
 

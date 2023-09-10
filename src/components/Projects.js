@@ -53,7 +53,7 @@ export default function Projects() {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
+            <h2>My Projects</h2>
             {/* <p>Solo and group projects where I focused on frontend development. Click to check out each project.</p> */}
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
             {/* <Nav variant="pills" defaultActiveKey="/home">
