@@ -580,9 +580,16 @@ color: #fff;
     justify-content: center;
   }
 
+  .skills h2 {
+    margin-top: 80px;
+    margin-bottom: 24px;
+  }
+
   .skill-box {
     display: flex;
     background-color: rgb(12, 12, 12);
+    margin-top: 0px;
+    padding: 0px 24px;
   }
 
   .skill-top {
