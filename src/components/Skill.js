@@ -40,7 +40,7 @@ export default function Skills() {
       <Container>
         <Row>
           <div className="">
-            <h2 className="d-none d-sm-block d-md-none" >My Stack</h2>
+            <h2 className="d-block d-sm-none">My Stack</h2>
             <Col className="skill-box">
               <h2 className="mystack-d">My Stack</h2>
               <div className="skills-top flex mb-5">
