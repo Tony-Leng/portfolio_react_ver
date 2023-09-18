@@ -441,7 +441,7 @@ color: #fff;
   border-radius: 30px;
   overflow: hidden;
   margin: 16px;
-  border: 4px solid rgb(177, 177, 177);
+  border: 2px solid rgb(177, 177, 177);
 }
 .proj-imgbx::before {
   content: "";
