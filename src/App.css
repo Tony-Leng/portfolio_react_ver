@@ -361,7 +361,7 @@ color: #fff;
 .projects {
   padding: 80px 0;
   position: relative;
-  background: #151515;
+  background: #202020;
   /* background-color: rgb(12, 12, 12); */
   background-position: top center;
   background-size: cover;
@@ -443,8 +443,10 @@ color: #fff;
   border-radius: 30px;
   overflow: hidden;
   margin: 16px;
-  border: 2px solid rgb(177, 177, 177);
+  /* border: 2px solid rgb(177, 177, 177);*/
+  box-shadow: #9c9c9c;
 }
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(0deg, #121212 -5.91%, #9c9c9c 111.58%);
