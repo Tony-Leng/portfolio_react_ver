@@ -304,8 +304,8 @@ color: #fff;
 }
 
 .skill-box {
-  background: #151515;
-  border-radius: 64px;
+  background-color: rgb(12, 12, 12);
+  /* border-radius: 64px; */
   text-align: center;
   padding: 30px 25px;
   margin-top: 80px;
@@ -361,7 +361,8 @@ color: #fff;
 .projects {
   padding: 80px 0;
   position: relative;
-  background-color: rgb(12, 12, 12);
+  background: #151515;
+  /* background-color: rgb(12, 12, 12); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -384,10 +385,11 @@ color: #fff;
   width: 56%;
 }
 .projects .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
-  border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  /* border-radius: 50px; */
+  /* background-color: rgb(255 255 255 / 10%); */
+  background-color: rgb(12, 12, 12);
   overflow: hidden;
 }
 .projects .nav.nav-pills .nav-item {

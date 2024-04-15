@@ -12,7 +12,10 @@ import { SiRubyonrails } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { DiFirebase } from "react-icons/di";
+import { SiFirebase } from "react-icons/si";
+import { TbBrandFigma } from "react-icons/tb";
+import { SiCanva } from "react-icons/si";
+
 
 
 export default function Skills() {
@@ -53,9 +56,12 @@ export default function Skills() {
               </div>
               <div className="skills-bot flex">
                 {/* <DiFirebase size={100} className="skill-icon"/> */}
-                <DiRuby size={100} className="skill-icon"/>
-                <SiRubyonrails size={100} className="skill-icon"/>
-                <SiPostgresql size={100} className="skill-icon"/>
+                {/* <DiRuby size={100} className="skill-icon"/> */}
+                {/* <SiRubyonrails size={100} className="skill-icon"/> */}
+                {/* <SiPostgresql size={100} className="skill-icon"/> */}
+                <TbBrandFigma size={100} className="skill-icon"/>
+                <SiCanva size={100} className="skill-icon"/>
+                <SiFirebase size={100} className="skill-icon"/>
                 <BsGit size={100} className="skill-icon"/>
                 <BsGithub size={100} className="skill-icon"/>
               </div>
