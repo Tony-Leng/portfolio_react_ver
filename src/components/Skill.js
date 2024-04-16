@@ -59,11 +59,11 @@ export default function Skills() {
                 {/* <DiRuby size={100} className="skill-icon"/> */}
                 {/* <SiRubyonrails size={100} className="skill-icon"/> */}
                 {/* <SiPostgresql size={100} className="skill-icon"/> */}
-                <TbBrandFigma size={100} className="skill-icon"/>
-                <SiCanva size={100} className="skill-icon"/>
                 <SiFirebase size={100} className="skill-icon"/>
                 <BsGit size={100} className="skill-icon"/>
                 <BsGithub size={100} className="skill-icon"/>
+                <TbBrandFigma size={100} className="skill-icon"/>
+                <SiCanva size={100} className="skill-icon"/>
               </div>
             </Col>
           </div>
