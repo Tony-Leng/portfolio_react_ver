@@ -52,8 +52,9 @@ const tick = () => {
         <Row className="align-items-center">
           <Col className="intro-text" xs={12} md={6} xl={7}>
             <span className="tagline">Hi, I'm Tony.</span>
-            <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='["Frontend Web Developer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1>
-            <p>I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end development and UI/UX design for the web.
+            <h1>I'm an aspiring Product Manager</h1>
+            {/* <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='["Frontend Web Developer", "UI/UX Designer"]'><span className="wrap">{text}</span></span></h1> */}
+            <p>I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. My aim is to create products that help people by existing at the intersection between business, design and engineering.
             </p>
             <button className="hidden-sm" onClick={()=> window.location = 'mailto:lengtk@gmail.com'}>Contact Me <ArrowRightCircle size={25}/></button>
           </Col>
